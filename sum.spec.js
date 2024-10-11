@@ -5,12 +5,12 @@ const { sum, sub } = require("./sum.js");
 describe("Tester kring matematik", () => {
 
     // Test 1
-    it("1+2=3", () => {
+    it('1+2=3', () => {
         expect(sum(1, 2)).toBe(3);
     });
 
     // Test 2
-    it("11+15=26", () => {
+    it('11+15=26', () => {
         expect(sum(11, 15)).toBe(26);
     });
 
